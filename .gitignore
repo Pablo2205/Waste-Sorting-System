@@ -1,0 +1,67 @@
+# Arduino build files
+*.elf
+*.hex
+*.bin
+*.map
+
+# Arduino IDE
+.build/
+build/
+.vscode/
+.vs/
+
+# MacOS
+.DS_Store
+*.swp
+*.lock
+*~.nib
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.old
+*~
+
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE specific
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.iml
+
+# Python (if using serial monitor scripts)
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+
+# Log files
+*.log
+
+# Documentation build
+docs/_build/
+
